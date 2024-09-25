@@ -38,7 +38,7 @@ Cypress.Commands.add('login', (email, password) => {
     cy.xpath('(//span[@class="nav-action-inner"])[1]').click();
 
     // Step 3: Enter Email and click continue
-    cy.get('#ap_email').type(email).pause();
+    cy.get('#ap_email').type(email);
     cy.get('#continue').click();
 
     // Step 4: Enter Password and click Sign in
