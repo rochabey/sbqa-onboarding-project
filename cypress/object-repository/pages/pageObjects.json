@@ -1,0 +1,24 @@
+{
+  "SignInPage" : {
+    "lbl_signIn" : "#nav-link-accountList-nav-line-1",
+    "lnk_signIn" : "(//span[@class='nav-action-inner'])[1]",
+    "txt_email" : "#ap_email",
+    "btn_continue" : "#continue",
+    "txt_password" : "#ap_password",
+    "btn_submit" : "#signInSubmit",
+    "lnk_skipNow" : "#ap-account-fixup-phone-skip-link"
+  },
+  "HomePage" : {
+    "txt_searchBox" : "#twotabsearchtextbox",
+    "btn_search" : "#nav-search-submit-button"
+  },
+  "SearchResultPage" : {
+    "ele_resultItem" : "(//span[@class='a-size-medium a-color-base a-text-normal'])[1]"
+  },
+  "ProductDetailPage" : {
+    "lbl_productTitle" : "#productTitle",
+    "dd_quantity" : "//span[@data-action='a-dropdown-button']",
+    "dd_selectQuantity" : "select#quantity",
+    "btn_addToCart" : "#add-to-cart-button"
+  }
+}

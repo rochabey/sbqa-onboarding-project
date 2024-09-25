@@ -1,0 +1,8 @@
+{
+  "email": "specialuser235@gmail.com",
+  "password": "Test@123",
+  "username": "rochelle",
+  "searchText" : "iphone 11 case",
+  "expectedUrl" : "/?ref_=nav_signin",
+  "selectQuantity" : "1"
+}
